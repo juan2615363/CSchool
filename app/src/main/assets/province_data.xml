@@ -1,0 +1,31 @@
+<root>
+    <province name="校内直发车">
+        <city name="潍坊市里"></city>
+        <city name="滨海"></city>
+        <city name="昌邑"></city>
+        <city name="临沂"></city>
+        <city name="莒南"></city>
+        <city name="青州"></city>
+        <city name="滨州"></city>
+        <city name="博兴"></city>
+        <city name="乐陵"></city>
+        <city name="临朐"></city>
+        <city name="济南"></city>
+        <city name="城阳即墨"></city>
+        <city name="济宁"></city>
+        <city name="菏泽"></city>
+        <city name="安丘"></city>
+        <city name="沂水"></city>
+        <city name="平邑"></city>
+        <city name="胶州"></city>
+        <city name="日照"></city>
+        <city name="胶南"></city>
+        <city name="无棣"></city>
+        <city name="淄博"></city>
+        <city name="邹平"></city>
+        <city name="景芝"></city>
+        <city name="诸城"></city>
+        <city name="泰安"></city>
+        <city name="莱芜"></city>
+    </province>
+</root>

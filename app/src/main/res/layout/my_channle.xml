@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/My_Channle_ButtonStyle"
+            android:drawableTop="@drawable/youhuiquan"
+            android:text="优惠券" />
+
+        <RadioButton
+            style="@style/My_Channle_ButtonStyle"
+            android:drawableTop="@drawable/money"
+            android:text="钱包" />
+
+        <RadioButton
+            style="@style/My_Channle_ButtonStyle"
+            android:drawableTop="@drawable/jifen"
+            android:text="积分" />
+
+        <RadioButton
+            style="@style/My_Channle_ButtonStyle"
+            android:drawableTop="@drawable/baitiao"
+            android:text="白条" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F2F2F2">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"/>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"/>
+
+    </LinearLayout>
+
+</LinearLayout>

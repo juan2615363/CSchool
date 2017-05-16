@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_register_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_while"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_web_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E75373"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:text="@string/messagesubmit"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="24dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <cn.songguohulian.cschool.view.CircleImageView
+                android:id="@+id/imageview_avatar_register"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/qt16qtiw" />
+
+            <TextView
+                android:id="@+id/text_register_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/div_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="昵称"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edt_register_nickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hint_nick"
+                    android:maxLines="1"
+                    android:textColor="@color/text_black"
+                    android:singleLine="true"
+                    android:textColorHint="@color/text_dark_gray"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/div_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_birthday"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text_register_birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hint_birthday"
+                    android:textColor="@color/text_black"
+                    android:inputType="none"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/div_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_sex"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_sex_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_male" />
+
+                    <RadioButton
+                        android:id="@+id/radio_sex_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/radio_female" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/div_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="个性签名"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/edit_signature"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:maxLines="3"
+                    android:textColor="@color/text_black"
+                    android:textSize="16sp"
+                    android:hint="个性签名"
+                    android:singleLine="false"
+                    android:background="@android:color/transparent"
+                    android:textColorHint="@color/hint_edt_text"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/btn_login_selector"
+                android:gravity="center"
+                android:text="@string/btn_finish"
+                android:textColor="@color/theme_while"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

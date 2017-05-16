@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        商家详情
+    -->
+
+    <TextView
+        android:id="@+id/tv_web_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E75373"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:text="@string/busniessxiangqing"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/business_images"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/mktn"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="麦克唐纳"/>
+
+        <TextView
+            android:id="@+id/business_price"
+            android:textColor="#ff6600"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人均:¥15/位"/>
+
+        <TextView
+            android:id="@+id/business_place"
+            android:gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/place"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地点:潍坊市滨海区新泰商业街"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:textColor="#fff"
+            android:background="#FF6600"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="预定座位"
+            android:id="@+id/call_phone" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/eat_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E75373"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:text="@string/eat_home_title"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/eat_rv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/eat_title" />
+
+</LinearLayout>

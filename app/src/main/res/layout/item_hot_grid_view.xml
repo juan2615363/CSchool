@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#fff"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_hot"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="2"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="百草味"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:text="￥88.00"
+        android:textColor="#ff4242" />
+</LinearLayout>

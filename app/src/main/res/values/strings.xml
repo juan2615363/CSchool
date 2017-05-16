@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">CSchool</string>
+    <string name="text_my_login_state">您还未登录,点击登录</string>
+    <string name="tv_home">首页</string>
+    <string name="tv_web">TBS</string>
+    <string name="around_home">周边游</string>
+    <string name="car_home">顺风车</string>
+    <string name="eat_home_title">校园商城</string>
+    <string name="run">运动达人</string>
+    <string name="run_home">运动吧</string>
+
+    <string name="btn_login">登录</string>
+
+    <string name="hint_username">请输入手机号</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="hint_mobile">请输入手机号</string>
+    <string name="hint_verify_code">请输入验证码</string>
+    <string name="hint_set_pwd">请输入6~20位密码</string>
+
+    <string name="hint_register_name">请输入用户名</string>
+    <string name="hint_nick">请输入昵称</string>
+    <string name="hint_birthday">设置生日</string>
+
+    <string name="text_rigister">新用户注册</string>
+    <string name="text_get_pwd_back">忘记密码？</string>
+    <string name="text_other_account">其它账号登录</string>
+
+    <string name="text_get_verify_code">发送验证码</string>
+    <string name="text_verify_code_count_down">秒重发</string>
+
+    <string name="action_next_step">下一步</string>
+    <string name="title_register">注册</string>
+    <string name="text_switch_to_mobile">切换至手机号注册</string>
+    <string name="text_switch_to_email">切换至邮箱注册</string>
+
+    <string name="text_upload_headImg">上传头像</string>
+    <string name="text_register_username">用户名</string>
+    <string name="text_nick">昵称</string>
+    <string name="text_birthday">生日</string>
+    <string name="text_sex">性别</string>
+    <string name="btn_finish">完成</string>
+    <string name="radio_male">男</string>
+    <string name="radio_female">女</string>
+
+    <string name="title_select_picture">选择图片</string>
+
+    <string name="title_reset_pwd">忘记密码</string>
+    <string name="hint_set_password">请输入密码</string>
+    <string name="hint_again_password">请确认密码</string>
+    <string name="btn_reset_pwd">确定</string>
+    <string name="hint_reset_pwd_email">请输入登录邮箱</string>
+    <string name="text_switch_to_mobile_reset">切换至手机修改</string>
+    <string name="text_switch_to_email_reset">切换至邮箱修改</string>
+    <string name="login_title">登录</string>
+    <string name="register_message">个人信息设置</string>
+    <string name="register_my">注册</string>
+    <string name="protocol">我同意</string>
+    <string name="update_title">修改密码</string>
+    <string name="messagesubmit">个人信息设置</string>
+    <string name="store_infos">商品详情</string>
+    <string name="busniessxiangqing">商家详情</string>
+    <string name="city">选择市区</string>
+    <string name="province">出发地</string>
+    <string name="ticketxiangqing">车票详情</string>
+</resources>

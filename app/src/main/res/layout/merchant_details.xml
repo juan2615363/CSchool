@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.songguohulian.cschool.view.TerryX5Web
+        android:id="@+id/merchant_webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"></cn.songguohulian.cschool.view.TerryX5Web>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:enabled="false"
+            android:textColor="#FF6600"
+            android:background="@color/base_color_text_white"
+            android:id="@+id/merchant_price_show"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:textColor="#fff"
+            android:background="#FF6600"
+            android:id="@+id/merchant_buy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="立即预定"/>
+    </LinearLayout>
+
+</LinearLayout>

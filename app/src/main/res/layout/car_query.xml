@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/base_color_text_gray"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/destination"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="滨海"/>
+
+        <ImageView
+            android:id="@+id/qiehuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qiehaun"/>
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:id="@+id/place"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="济南"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/base_color_text_gray"/>
+
+    <Button
+        android:id="@+id/start_ss"
+        android:textColor="#fff"
+        android:background="#ff0000"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="开始搜索"/>
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:background="#F1F2F6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/car_sgbg"/>
+
+</LinearLayout>

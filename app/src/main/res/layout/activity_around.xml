@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+<!--解决自动回到底部的方案-->
+    <TextView
+        android:id="@+id/tv_web_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E75373"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:text="@string/around_home"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/around_rv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+
+</LinearLayout>

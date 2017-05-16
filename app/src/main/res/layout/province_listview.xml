@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialogue_all"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+       
+        android:layout_height="48dp"
+        android:background="@null"
+        android:gravity="center"
+        android:textColor="#2a2a2a"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"
+        android:scaleType="fitXY" />
+
+    <ListView
+        android:id="@+id/provinceList"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:divider="#dddddd"
+        android:dividerHeight="2px"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+   
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/DialogContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/yes_no_bg"
+            android:gravity="center"
+            android:text="取消" />
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="#dddddd"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/btnOk"
+            style="@style/DialogContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/yes_no_bg"
+            android:gravity="center"
+            android:text="确定" />
+    </LinearLayout>
+
+</LinearLayout>

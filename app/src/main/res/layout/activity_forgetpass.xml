@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/theme_while">
+
+    <TextView
+        android:id="@+id/tv_web_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E75373"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:text="@string/update_title"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/resetPwd_email_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal">
+            <EditText
+                android:id="@+id/resetPwd_email_edt"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/edit_gray_selector"
+                android:hint="@string/hint_reset_pwd_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@color/text_black"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/resetPwd_mobile_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            >
+            <EditText
+                android:id="@+id/resetPwd_mobile_edt"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/edit_gray_selector"
+                android:hint="@string/hint_mobile"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:textColor="@color/text_black"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/resetPwd_get_code_btn"
+                android:layout_width="100dp"
+                android:layout_height="44dp"
+                android:layout_alignRight="@id/resetPwd_mobile_edt"
+                android:layout_below="@id/resetPwd_mobile_edt"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorApp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/text_get_verify_code"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/resetPwd_code_edt"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_alignTop="@id/resetPwd_get_code_btn"
+                android:layout_below="@id/resetPwd_mobile_edt"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/resetPwd_get_code_btn"
+                android:background="@drawable/edit_gray_selector"
+                android:hint="@string/hint_verify_code"
+                android:inputType="number"
+                android:maxLength="6"
+                android:textColor="@color/text_black"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/resetPwd_set_password"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@id/resetPwd_code_edt"
+                android:layout_marginTop="12dp"
+                android:minLines="1"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColor="@color/text_black"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:hint="@string/hint_set_password"
+                android:background="@drawable/edit_gray_selector"/>
+
+            <EditText
+                android:id="@+id/resetPwd_again_password"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@id/resetPwd_set_password"
+                android:layout_marginTop="12dp"
+                android:minLines="1"
+                android:singleLine="true"
+                android:maxLength="20"
+                android:textColor="@color/text_black"
+                android:textSize="16sp"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:hint="@string/hint_again_password"
+                android:background="@drawable/edit_gray_selector"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <Button
+        android:id="@+id/resetPws_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@drawable/btn_login_selector"
+        android:layout_below="@id/resetPwd_again_password"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/btn_reset_pwd"
+        android:textColor="@color/theme_while"
+        android:textSize="16sp"  />
+
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_web_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E75373"
+        android:paddingLeft="8dp"
+        android:paddingTop="20dp"
+        android:text="@string/register_my"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relative_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edt_register_email"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/edit_gray_selector"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/text_black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_register_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/edt_register_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/edit_gray_selector"
+                android:hint="@string/hint_mobile"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/text_black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_get_rerify_code"
+                android:layout_width="100dp"
+                android:layout_height="44dp"
+                android:layout_alignRight="@id/edt_register_mobile"
+                android:layout_below="@id/edt_register_mobile"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorApp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/text_get_verify_code"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edt_register_verify_code"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_alignTop="@id/btn_get_rerify_code"
+                android:layout_below="@id/edt_register_mobile"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/btn_get_rerify_code"
+                android:background="@drawable/edit_gray_selector"
+                android:hint="@string/hint_verify_code"
+                android:inputType="number"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/text_black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/edt_register_set_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/edit_gray_selector"
+            android:hint="@string/hint_set_pwd"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@color/text_black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/register_cb_isagree"
+            android:checked="true"
+            android:textColor="@color/base_color_text_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/protocol" />
+
+        <TextView
+            android:id="@+id/tv_duduProtocol"
+            android:textColor="#E75373"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《关于本系统用户使用协议》" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center"
+            android:id="@+id/btn_register_next_step"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_login_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/action_next_step"
+            android:textColor="@color/theme_while"
+            android:textSize="16sp" />
+    </LinearLayout>
+

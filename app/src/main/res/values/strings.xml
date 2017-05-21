@@ -62,4 +62,5 @@
     <string name="city">选择市区</string>
     <string name="province">出发地</string>
     <string name="ticketxiangqing">车票详情</string>
+    <string name="tv_find">发现</string>
 </resources>

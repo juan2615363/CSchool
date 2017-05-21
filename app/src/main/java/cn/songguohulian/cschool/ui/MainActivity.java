@@ -23,13 +23,11 @@ import cn.songguohulian.cschool.fragment.HomeFragment;
 import cn.songguohulian.cschool.fragment.MyFragment;
 
 
-
 /**
- *
  * @author Ziv
  * @data 2017/4/26
  * @time 17:37
- *
+ * <p>
  * 主界面
  */
 public class MainActivity extends BaseActivity {
@@ -39,7 +37,6 @@ public class MainActivity extends BaseActivity {
 
     @Bind(R.id.rg_main)
     public RadioGroup mRgMain;
-
 
 
     /**
@@ -93,7 +90,7 @@ public class MainActivity extends BaseActivity {
         mRgMain.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                switch (checkedId){
+                switch (checkedId) {
                     case R.id.rb_home://主页
                         position = 0;
                         break;
@@ -145,6 +142,7 @@ public class MainActivity extends BaseActivity {
 
     /**
      * 切换Fragment
+     *
      * @param fromFragment
      * @param nextFragment
      */

@@ -129,6 +129,7 @@ public class HomeFragment extends BaseFragment {
         ResultBeanData resultBeanData = JSON.parseObject(json, ResultBeanData.class);
         result = resultBeanData.getResult();
 
+
         if (result != null) {
             //有数据 设置适配器
             adapter = new HomeFragmentAdapter(context, result);

@@ -116,6 +116,10 @@ public class MyWebActivity extends Activity {
         return super.onKeyDown(keyCode, event);
     }
 
-
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }
 

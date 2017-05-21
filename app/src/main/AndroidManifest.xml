@@ -96,7 +96,7 @@
         //key:开发者申请的Key
 
 
-        <activity android:name=".ui.LoginActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -108,6 +108,7 @@
         <meta-data
             android:name="QBSDKAppKey"
             android:value="sqfJDmcQaJj40mDvBOpj9FKW" />
+
 
         <activity
             android:name=".ui.MyWebActivity" />
@@ -125,7 +126,7 @@
         <activity android:name=".ui.RunActivity"/>
 
         <!--登录-->
-        <activity android:name=".ui.MainActivity"/>
+<!--        <activity android:name=".ui.MainActivity"/>-->
 
         <!--注册-->
         <activity android:name=".ui.RegisterActivity"/>

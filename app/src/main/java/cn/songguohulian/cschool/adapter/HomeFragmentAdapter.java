@@ -45,6 +45,8 @@ import cn.songguohulian.cschool.utils.NetUtils;
 import cn.songguohulian.cschool.utils.ScaleInTransformer;
 
 
+
+
 public class HomeFragmentAdapter extends XRecyclerView.Adapter<XRecyclerView.ViewHolder> {
 
     /**

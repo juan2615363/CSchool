@@ -16,6 +16,9 @@ public class MyContants {
     // 主页的地址
     public static final String HOME_URL = BASE_URL_JSON + "HOME_URL.json";
 
+    // 发现界面
+    public static final String FIND_URL = BASE_URL_JSON + "Find_URL.json";
+
     // 我是吃货
     public static final String EAT_URL = BASE_URL_JSON + "EAT_URL.json";
 
